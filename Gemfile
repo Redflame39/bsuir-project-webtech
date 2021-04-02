@@ -24,7 +24,12 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'devise', github: 'heartcombo/devise', branch: 'ca-omniauth-2'
 gem 'bootstrap-sass'
+
 gem 'omniauth', "2.0.3"
+gem 'omniauth-facebook'
+gem 'omniauth-rails_csrf_protection'
+
+gem 'figaro'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
